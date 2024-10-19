@@ -139,7 +139,7 @@ public class AboutActivity extends AppCompatActivity implements View.OnClickList
         @Override
         protected String doInBackground(Void... voids) {
             try {
-                URL url = new URL("https://api.github.com/repos/ost-sys/ost-program-android/releases");
+                URL url = new URL("https://api.github.com/repos/bohdan157/bohdans-app/releases");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestProperty("User-Agent", "Mozilla/5.0");
 
@@ -207,7 +207,7 @@ public class AboutActivity extends AppCompatActivity implements View.OnClickList
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(apkUrl));
         request.setDescription(getString(R.string.downloading_update));
         request.setTitle(getString(R.string.update));
-        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "ost-program-android.apk");
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "update.apk");
         request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
         request.setVisibleInDownloadsUi(true);
 
