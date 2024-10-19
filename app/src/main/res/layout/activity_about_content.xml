@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="always"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:roundedCorners="top_left|top_right">
+
+        <dev.oneuiproject.oneui.widget.Separator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/developer" />
+
+        <dev.oneuiproject.oneui.widget.RoundLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/oui_background_color"
+            android:orientation="vertical">
+
+            <com.bohdan157.app.ui.widget.CardView
+                android:id="@+id/about_bottom_dev"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:IconDrawable="@drawable/bohdan"
+                app:TitleText="Bohdan157" />
+
+            <com.bohdan157.app.ui.widget.CardView
+                android:id="@+id/about_update"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:IconDrawable="@drawable/ic_oui_refresh"
+                app:TitleText="@string/check_for_updates"
+                app:isDividerViewVisible="true"/>
+
+        </dev.oneuiproject.oneui.widget.RoundLinearLayout>
+
+        <dev.oneuiproject.oneui.widget.Separator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/one_ui_design_developers" />
+
+        <dev.oneuiproject.oneui.widget.RoundLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/oui_background_color"
+            android:orientation="vertical">
+
+            <com.bohdan157.app.ui.widget.CardView
+                android:id="@+id/about_bottom_dev_yann"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:IconDrawable="@drawable/about_page_avatar_yann"
+                app:TitleText="Yanndroid" />
+
+            <com.bohdan157.app.ui.widget.CardView
+                android:id="@+id/about_bottom_dev_mesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:IconDrawable="@drawable/about_page_avatar_mesa"
+                app:TitleText="BlackMesa123"
+                app:isDividerViewVisible="true" />
+
+            <com.bohdan157.app.ui.widget.CardView
+                android:id="@+id/about_bottom_dev_tribalfs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:IconDrawable="@drawable/about_page_avatar_tribalfs"
+                app:TitleText="Tribalfs"
+                app:isDividerViewVisible="true" />
+
+        </dev.oneuiproject.oneui.widget.RoundLinearLayout>
+
+        <dev.oneuiproject.oneui.widget.Separator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_source_licenses" />
+
+        <dev.oneuiproject.oneui.widget.RoundLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/oui_background_color"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <com.bohdan157.app.ui.widget.CardView
+                android:id="@+id/about_bottom_oss_program"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:TitleText="Open Source Program"
+                app:SummaryText="Open source code of this application"/>
+
+            <com.bohdan157.app.ui.widget.CardView
+                android:id="@+id/about_bottom_oss_apache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:TitleText="Apache License 2.0"
+                app:SummaryText="androidx  •  material-components  •  lottie"
+                app:isDividerViewVisible="true" />
+
+            <com.bohdan157.app.ui.widget.CardView
+                android:id="@+id/about_bottom_oss_mit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:TitleText="MIT License"
+                app:SummaryText="oneui-core  •  oneui-design"
+                app:isDividerViewVisible="true" />
+
+        </dev.oneuiproject.oneui.widget.RoundLinearLayout>
+
+        <dev.oneuiproject.oneui.widget.RelatedCard
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:title="@string/useful_links">
+
+            <TextView
+                android:id="@+id/about_bottom_relative_ost_github"
+                style="@style/OneUI.RelativeLinkTextViewStyle"
+                android:text="@string/github" />
+
+            <TextView
+                android:id="@+id/about_bottom_relative_jetpack"
+                style="@style/OneUI.RelativeLinkTextViewStyle"
+                android:text="Android Jetpack" />
+
+            <TextView
+                android:id="@+id/about_bottom_relative_material"
+                style="@style/OneUI.RelativeLinkTextViewStyle"
+                android:text="Material Components" />
+
+            <TextView
+                android:id="@+id/about_bottom_relative_ouip"
+                style="@style/OneUI.RelativeLinkTextViewStyle"
+                android:text="OneUI Project" />
+
+        </dev.oneuiproject.oneui.widget.RelatedCard>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

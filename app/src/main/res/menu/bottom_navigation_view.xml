@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_oui_home_outline"
+        android:title="@string/home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_devices"
+        android:icon="@drawable/ic_oui_link_to_windows"
+        android:title="Devices"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_friends"
+        android:icon="@drawable/ic_oui_group_outline"
+        android:title="@string/friends"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_links"
+        android:icon="@drawable/ic_oui_attach"
+        android:title="Links"
+        app:showAsAction="always" />
+
+</menu>
