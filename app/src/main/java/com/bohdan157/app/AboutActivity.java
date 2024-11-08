@@ -472,13 +472,13 @@ public class AboutActivity extends AppCompatActivity implements View.OnClickList
             } else if (v.getId() == mBottomContent.aboutBottomDevTribalfs.getId()) {
                 url = "https://github.com/tribalfs";
             } else if (v.getId() == mBottomContent.aboutBottomOssProgram.getId()) {
-                url = "https://github.com/ost-sys/ost-program-android";
+                url = "https://github.com/bohdan157/bohdans-app";
             } else if (v.getId() == mBottomContent.aboutBottomOssApache.getId()) {
                 url = "https://www.apache.org/licenses/LICENSE-2.0.txt";
             } else if (v.getId() == mBottomContent.aboutBottomOssMit.getId()) {
                 url = "https://github.com/OneUIProject/sesl/blob/main/LICENSE";
             } else if (v.getId() == mBottomContent.aboutBottomRelativeOstGithub.getId()) {
-                url = "https://github.com/bohdan157/bohdans-app"; // просчитались, но... Где?
+                url = "https://github.com/bohdan157/bohdans-app";
             } else if (v.getId() == mBottomContent.aboutBottomRelativeJetpack.getId()) {
                 url = "https://developer.android.com/jetpack";
             } else if (v.getId() == mBottomContent.aboutBottomRelativeMaterial.getId()) {

@@ -14,102 +14,52 @@
         android:orientation="vertical">
 
         <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/friends_dsys1100"
+            android:id="@+id/friends_ost"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:IconDrawable="@drawable/dsys1100"
-            app:TitleText="dsys1100"
-            app:SummaryText="@string/dsys1100_info"/>
+            app:IconDrawable="@drawable/ost_logo"
+            app:TitleText="OST"
+            app:SummaryText="@string/ost"/>
 
         <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/friends_nerok"
+            android:id="@+id/friends_kernel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:IconDrawable="@drawable/localhosted"
-            app:TitleText="localhosted (aka. Nerok)"
-            app:SummaryText="@string/nerok_info"
-            app:isDividerViewVisible="true"/>
-
-        <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/friends_dimalq"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:IconDrawable="@drawable/dimalq"
-            app:TitleText="DimaLQ"
-            app:SummaryText="@string/DimaLQ_info"
-            app:isDividerViewVisible="true"/>
-
-        <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/friends_bohdan"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:IconDrawable="@drawable/bohdan"
-            app:TitleText="Bohdan"
-            app:SummaryText="@string/bohdan_info"
-            app:isDividerViewVisible="true"/>
-
-        <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/friends_kernel64"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:IconDrawable="@drawable/kernel64"
+            app:IconDrawable="@drawable/image__1_"
             app:TitleText="kernel64"
-            app:SummaryText="@string/kernel64_info"
+            app:SummaryText="@string/kernel"
             app:isDividerViewVisible="true"/>
 
         <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/friends_danielm"
+            android:id="@+id/friends_zhenya"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:IconDrawable="@drawable/danielm"
-            app:TitleText="Daniel Myslivets"
-            app:SummaryText="@string/danielm_info"
+            app:IconDrawable="@drawable/zhh4"
+            app:TitleText="zhh4"
+            app:SummaryText="@string/zhenya"
             app:isDividerViewVisible="true"/>
 
         <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/friends_hackuser"
+            android:id="@+id/friends_dima"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:IconDrawable="@drawable/hackuser"
-            app:TitleText="Hackintosh_user"
-            app:SummaryText="@string/hackuser_info"
-            app:isDividerViewVisible="true" />
-
-        <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/friends_ertor"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:IconDrawable="@drawable/ertor"
-            app:TitleText="The Ertor"
-            app:SummaryText="@string/ertor_info"
+            app:IconDrawable="@drawable/dima"
+            app:TitleText="Дмитро Роздолбаїв"
+            app:SummaryText="@string/dimalq"
             app:isDividerViewVisible="true"/>
 
         <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/friends_happywin8"
+            android:id="@+id/friends_melamit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:IconDrawable="@drawable/happywin8"
-            app:TitleText="HappyWin8"
-            app:SummaryText="@string/happywin8_info"
-            app:isDividerViewVisible="true"/>
-
-        <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/friends_rivixal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:IconDrawable="@drawable/rivixal"
-            app:TitleText="Rivixal"
-            app:SummaryText="@string/osmixup_info"
+            app:IconDrawable="@drawable/melamit"
+            app:TitleText="Melamit"
+            app:SummaryText="@string/melamit"
             app:isDividerViewVisible="true"/>
 
         <com.bohdan157.app.ui.widget.CardView
@@ -117,19 +67,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:IconDrawable="@drawable/anton"
-            app:TitleText="Антон Шуруповёрт"
-            app:SummaryText="@string/anton_info"
+            app:IconDrawable="@drawable/antons"
+            app:TitleText="Антон штукатурка"
+            app:SummaryText="@string/anton"
             app:isDividerViewVisible="true"/>
 
         <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/friends_tu4wkl"
+            android:id="@+id/friends_hackuser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:IconDrawable="@drawable/tu4wkl"
-            app:TitleText="pachadomenic"
-            app:SummaryText="@string/tu4wkl_info"
+            app:IconDrawable="@drawable/huser"
+            app:TitleText="Hackintosh User"
+            app:SummaryText="@string/hackuser"
             app:isDividerViewVisible="true"/>
 
     </dev.oneuiproject.oneui.widget.RoundLinearLayout>

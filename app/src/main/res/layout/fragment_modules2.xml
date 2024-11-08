@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.devices.DevicesFragment"
+    android:orientation="vertical">
+
+    <dev.oneuiproject.oneui.widget.RoundLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/oui_background_color"
+        android:orientation="vertical">
+
+        <com.bohdan157.app.ui.widget.CardView
+            android:id="@+id/link_pif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:TitleText="Play integrity fix" />
+
+        <com.bohdan157.app.ui.widget.CardView
+            android:id="@+id/link_nl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:TitleText="Nothing phone launcher "
+            app:isDividerViewVisible="true"/>
+
+
+    </dev.oneuiproject.oneui.widget.RoundLinearLayout>
+</LinearLayout>

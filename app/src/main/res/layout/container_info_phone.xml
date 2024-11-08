@@ -47,7 +47,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="SM-G991B/DS"/>
+                        android:text="Samsung Galaxy S21 FE | SM-G990B2"/>
 
                 </LinearLayout>
 
@@ -67,7 +67,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/android"/>
+                        android:text="@string/OS"/>
 
                 </LinearLayout>
 
@@ -82,7 +82,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="14"/>
+                        android:text="One Ui 6.1.1, Android 14, S911BXXS6CXHA"/>
 
                 </LinearLayout>
 
@@ -102,42 +102,22 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/camera"/>
+                        android:text="@string/KernelA"/>
 
                 </LinearLayout>
 
                 <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
                     android:orientation="vertical">
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="4dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:padding="4dp"
-                            android:textSize="14sp"
-                            android:text="Main: 64 MP + 12 MP + 12 MP"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="4dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:padding="4dp"
-                            android:textSize="14sp"
-                            android:text="Frontal: 10 MP"/>
-
-                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="5.4.259 Aqua kernel 14.02.2024"/>
 
                 </LinearLayout>
 
@@ -157,7 +137,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/shell"/>
+                        android:text="CPU"/>
 
                 </LinearLayout>
 
@@ -172,42 +152,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="One UI 6.1"/>
-
-                </LinearLayout>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_marginBottom="4dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="@string/display"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="1080 * 2400 (6,2 inch) - 120 Hz"/>
+                        android:text="Qualcomm Snapdragon 888 5G"/>
 
                 </LinearLayout>
 
@@ -227,7 +172,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/battery"/>
+                        android:text="GPU"/>
 
                 </LinearLayout>
 
@@ -242,42 +187,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="4000 mAh"/>
-
-                </LinearLayout>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_marginBottom="4dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="@string/ram"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="8 GB LPDDR5"/>
+                        android:text="Adreno 660"/>
 
                 </LinearLayout>
 
@@ -297,7 +207,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/rom"/>
+                        android:text="@string/Screen"/>
 
                 </LinearLayout>
 
@@ -312,42 +222,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="128 GB"/>
-
-                </LinearLayout>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_marginBottom="4dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="@string/cpu"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="Exynos 2100 (2200 MHz)"/>
+                        android:text="1080 x 2340 pixels (~403 ppi density) 6.4 inches Dynamic AMOLED 2X, 120Hz, HDR10+"/>
 
                 </LinearLayout>
 
@@ -367,7 +242,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/gpu"/>
+                        android:text="@string/Camera"/>
 
                 </LinearLayout>
 
@@ -382,7 +257,42 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="Mali-G78 MP14"/>
+                        android:text="12mp + 8mp + 12mp - rear, 10/32mp - front"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/Memory"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="6GB RAM, 128GB ROM"/>
 
                 </LinearLayout>
 

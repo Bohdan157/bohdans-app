@@ -29,49 +29,41 @@ public class FriendsFragment extends Fragment implements View.OnClickListener {
     }
 
     private void initContent() {
-        binding.friendsDsys1100.setOnClickListener(this);
-        binding.friendsNerok.setOnClickListener(this);
-        binding.friendsDimalq.setOnClickListener(this);
-        binding.friendsBohdan.setOnClickListener(this);
-        binding.friendsKernel64.setOnClickListener(this);
-        binding.friendsDanielm.setOnClickListener(this);
+        binding.friendsOst.setOnClickListener(this);
+        binding.friendsZhenya.setOnClickListener(this);
+        binding.friendsMelamit.setOnClickListener(this);
+        binding.friendsKernel.setOnClickListener(this);
         binding.friendsHackuser.setOnClickListener(this);
-        binding.friendsErtor.setOnClickListener(this);
-        binding.friendsHappywin8.setOnClickListener(this);
-        binding.friendsRivixal.setOnClickListener(this);
         binding.friendsAnton.setOnClickListener(this);
-        binding.friendsTu4wkl.setOnClickListener(this);
+        binding.friendsDima.setOnClickListener(this);
     }
+
 
     @Override
     public void onClick(View v) {
         long uptimeMillis = SystemClock.uptimeMillis();
         if (uptimeMillis - mLastClickTime > 600L) {
             String url = null;
-            if (v.getId() == binding.friendsDsys1100.getId()) {
-                url = "https://dsys1100.github.io/";
-            } else if (v.getId() == binding.friendsNerok.getId()) {
-                url = "https://t.me/localhosted";
-            } else if (v.getId() == binding.friendsDimalq.getId()) {
-                url = "https://www.tiktok.com/@dimalq_real?_t=8mrsrUJf1Aj&_r=1";
-            } else if (v.getId() == binding.friendsBohdan.getId()) {
-                url = "https://Bohdan157.github.io";
-            } else if (v.getId() == binding.friendsKernel64.getId()) {
-                url = "https://xerix123456.github.io";
-            } else if (v.getId() == binding.friendsDanielm.getId()) {
-                url = "https://www.youtube.com/@DanielM";
-            } else if (v.getId() == binding.friendsHackuser.getId()) {
+            if (v.getId() == binding.friendsOst.getId()) {
+                url = "https://ost-sys.github.io/";
+            }
+            if (v.getId() == binding.friendsZhenya.getId()) {
+                url = "https://www.youtube.com/@zhh4eny";
+            }
+            if (v.getId() == binding.friendsMelamit.getId()) {
+                url = "https://t.me/melamitd";
+            }
+            if (v.getId() == binding.friendsHackuser.getId()) {
                 url = "https://hackintoshuser137.github.io";
-            } else if (v.getId() == binding.friendsErtor.getId()) {
-                url = "https://ertorworld.com/";
-            } else if (v.getId() == binding.friendsHappywin8.getId()) {
-                url = "https://www.youtube.com/channel/UCEUf6E02RlsxKlAxIbNzBfA";
-            } else if (v.getId() == binding.friendsRivixal.getId()) {
-                url = "https://rivixal.github.io/";
-            } else if (v.getId() == binding.friendsAnton.getId()) {
-                url = "https://github.com/Anton-Aboba1234";
-            } else if (v.getId() == binding.friendsTu4wkl.getId()) {
-                url = "https://pachdomenic.github.io";
+            }
+            if (v.getId() == binding.friendsDima.getId()) {
+                url = "https://dima-lq.github.io";
+            }
+            if (v.getId() == binding.friendsAnton.getId()) {
+                url = "https://t.me/antonaprilbl0g";
+            }
+            if (v.getId() == binding.friendsKernel.getId()) {
+                url = "https://t.me/GalaxyS2_S3_Updates";
             }
             if (url != null) {
                 try {

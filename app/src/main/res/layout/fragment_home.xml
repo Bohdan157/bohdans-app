@@ -10,7 +10,7 @@
     <dev.oneuiproject.oneui.widget.Separator
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="idk who's that"/>
+        android:text="@string/Fuyu"/>
 
     <dev.oneuiproject.oneui.widget.RoundLinearLayout
         android:layout_width="match_parent"
@@ -22,25 +22,249 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="242dp"
-            android:src="@drawable/_302563"/>
+            android:src="@drawable/_302563" />
+
+    </dev.oneuiproject.oneui.widget.RoundLinearLayout>
+
+    <dev.oneuiproject.oneui.widget.Separator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Siam"/>
+
+    <dev.oneuiproject.oneui.widget.RoundLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/oui_background_color"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+        <TableRow
+            android:layout_marginBottom="4dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:text="@string/TName"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:text="@string/name"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/age"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/yo"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/bday"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="11.03.2012"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/country"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/ukraine"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/city"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/lviv"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
 
     </dev.oneuiproject.oneui.widget.RoundLinearLayout>
 
     <dev.oneuiproject.oneui.widget.RoundLinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
         android:background="@color/oui_background_color"
         android:orientation="vertical">
 
-        <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/about_me"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:IconDrawable="@drawable/bohdan"
-            app:TitleText="About me"
-            app:SummaryText="info about u\nenter"/>
+    <com.bohdan157.app.ui.widget.CardView
+        android:id="@+id/pets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:IconDrawable="@drawable/ic_oui_pets"
+        app:TitleText="@string/mypets">
+    </com.bohdan157.app.ui.widget.CardView>
 
     </dev.oneuiproject.oneui.widget.RoundLinearLayout>
+
+    <dev.oneuiproject.oneui.widget.RelatedCard
+            android:id="@+id/relatedCardBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            app:title="@string/links">
+
+        <TextView
+            android:id="@+id/telegramAcc"
+            style="@style/OneUI.RelativeLinkTextViewStyle"
+            android:text="@string/tg" />
+
+        <TextView
+            android:id="@+id/blog"
+            style="@style/OneUI.RelativeLinkTextViewStyle"
+            android:text="@string/Blog" />
+
+        <TextView
+            android:id="@+id/gh"
+            style="@style/OneUI.RelativeLinkTextViewStyle"
+            android:text="@string/gh" />
+        </dev.oneuiproject.oneui.widget.RelatedCard>
+
+
 
 </LinearLayout>

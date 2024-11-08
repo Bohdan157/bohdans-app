@@ -15,21 +15,70 @@
         <dev.oneuiproject.oneui.widget.Separator
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="phone"/>
+            style="@style/OneUI.TipsCardTextButtonStyle"
+        android:text="@string/mdvcs"/>
+
+        <dev.oneuiproject.oneui.widget.Separator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"/>
 
         <include layout="@layout/container_info_phone"/>
 
         <dev.oneuiproject.oneui.widget.Separator
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="laptop"/>
+            android:text="@string/Tablet" />
+
+        <include layout="@layout/container_info_tablet"/>
+
+        <dev.oneuiproject.oneui.widget.Separator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Laptop"/>
 
         <include layout="@layout/container_info_pc"/>
 
         <dev.oneuiproject.oneui.widget.Separator
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="tablet"/>
+            style="@style/OneUI.TipsCardTextButtonStyle"
+            android:text="@string/Wearables"/>
+
+        <dev.oneuiproject.oneui.widget.Separator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Watch"/>
+
+        <include layout="@layout/container_info_watch"/>
+
+        <dev.oneuiproject.oneui.widget.Separator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Earbuds"/>
+
+        <include layout="@layout/container_info_buds"/>
+
+        <dev.oneuiproject.oneui.widget.Separator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/OneUI.TipsCardTextButtonStyle"
+            android:text="@string/Secondarydevices"/>
+
+        <dev.oneuiproject.oneui.widget.Separator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/secondphone"/>
+
+        <include layout="@layout/container_info_a30s"/>
+
+        <dev.oneuiproject.oneui.widget.Separator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Thirdphone" />
+
+        <include layout="@layout/container_info_pixel"/>
+
 
     </LinearLayout>
 

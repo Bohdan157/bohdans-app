@@ -32,7 +32,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/cpu"/>
+                        android:text="@string/TName"/>
 
                 </LinearLayout>
 
@@ -47,7 +47,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="Intel Core i5-11400H 2.70GHz"/>
+                        android:text="@string/Hname"/>
 
                 </LinearLayout>
 
@@ -67,7 +67,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/gpu"/>
+                        android:text="@string/breed"/>
 
                 </LinearLayout>
 
@@ -82,41 +82,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="Intel UHD Graphics for 11th gen  \nNvidia GeForce RTX 3050 Laptop 4gb"/>
-
-                </LinearLayout>
-
-            </TableRow>
-
-            <TableRow android:layout_marginBottom="4dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="@string/ram"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="2X SODIMM Samsung 16gm 3200MHz"/>
+                        android:text="@string/Djunharian"/>
 
                 </LinearLayout>
 
@@ -136,47 +102,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/rom"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="4dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:padding="4dp"
-                            android:textSize="14sp"
-                            android:text="Samsung PM991 MZVLQ512HALU-00000 \nServer SSD 512GB"/>
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_marginBottom="4dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="@string/board"/>
+                        android:text="@string/bday"/>
 
                 </LinearLayout>
 
@@ -191,7 +117,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="Gateway GGNC51518-BK"/>
+                        android:text="23.10.2023"/>
 
                 </LinearLayout>
 

@@ -60,14 +60,17 @@ public class MainActivity extends AppCompatActivity {
             toolbarLayout.setTitle(getString(R.string.home));
             fragment = new HomeFragment();
         } else if (itemId == R.id.navigation_devices) {
-            toolbarLayout.setTitle("Devices");
+            toolbarLayout.setTitle(getString(R.string.Devices));
             fragment = new DevicesFragment();
         } else if (itemId == R.id.navigation_friends) {
             toolbarLayout.setTitle(getString(R.string.friends));
             fragment = new FriendsFragment();
         } else if (itemId == R.id.navigation_links) {
-            toolbarLayout.setTitle("Links");
+            toolbarLayout.setTitle(getString(R.string.Extras));
             fragment = new LinksFragment();
+        } else if (itemId == R.id.pets) {
+            toolbarLayout.setTitle(getString(R.string.Pets));
+            fragment = new PetsFragment();
         }
         return fragment;
     }

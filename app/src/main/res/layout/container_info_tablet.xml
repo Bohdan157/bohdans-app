@@ -32,7 +32,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/cpu"/>
+                        android:text="@string/model"/>
 
                 </LinearLayout>
 
@@ -47,7 +47,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="Intel Core i5-11400H 2.70GHz"/>
+                        android:text="Galaxy Tab S6 Lite 2024 | SM-P620"/>
 
                 </LinearLayout>
 
@@ -67,7 +67,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/gpu"/>
+                        android:text="@string/OS"/>
 
                 </LinearLayout>
 
@@ -82,41 +82,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="Intel UHD Graphics for 11th gen  \nNvidia GeForce RTX 3050 Laptop 4gb"/>
-
-                </LinearLayout>
-
-            </TableRow>
-
-            <TableRow android:layout_marginBottom="4dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="@string/ram"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="2X SODIMM Samsung 16gm 3200MHz"/>
+                        android:text="One Ui 6.1, Android 14, P620XXS3AXH2"/>
 
                 </LinearLayout>
 
@@ -136,27 +102,22 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/rom"/>
+                        android:text="@string/KernelA"/>
 
                 </LinearLayout>
 
                 <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
                     android:orientation="vertical">
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="4dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:padding="4dp"
-                            android:textSize="14sp"
-                            android:text="Samsung PM991 MZVLQ512HALU-00000 \nServer SSD 512GB"/>
-
-                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="5.10 stock one ui kernel"/>
 
                 </LinearLayout>
 
@@ -176,7 +137,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/board"/>
+                        android:text="CPU"/>
 
                 </LinearLayout>
 
@@ -191,7 +152,147 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="Gateway GGNC51518-BK"/>
+                        android:text="Samsung Exynos 1280"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="GPU"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="Mali-G68"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/Screen"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="1200 x 2000 pixels (~224 ppi density) \n10.4 inches TFT LCD"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/Camera"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="8mp - rear, 5mp - front"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/Memory"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="4GB RAM, 128GB ROM"/>
 
                 </LinearLayout>
 

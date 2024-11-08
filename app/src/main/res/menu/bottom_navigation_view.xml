@@ -11,7 +11,7 @@
     <item
         android:id="@+id/navigation_devices"
         android:icon="@drawable/ic_oui_link_to_windows"
-        android:title="Devices"
+        android:title="@string/devices"
         app:showAsAction="always" />
 
     <item
@@ -22,8 +22,10 @@
 
     <item
         android:id="@+id/navigation_links"
-        android:icon="@drawable/ic_oui_attach"
-        android:title="Links"
-        app:showAsAction="always" />
+        android:icon="@drawable/ic_oui_list_extended"
+        android:title="@string/Extras"
+        app:showAsAction="always"
+        android:visible="true"/>
+
 
 </menu>

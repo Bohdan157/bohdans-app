@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <dev.oneuiproject.oneui.widget.RoundLinearLayout
         android:layout_width="match_parent"
@@ -30,7 +32,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/vm"/>
+                        android:text="@string/TName"/>
 
                 </LinearLayout>
 
@@ -45,42 +47,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="VMware Workstation 17"/>
-
-                </LinearLayout>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_marginBottom="4dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="@string/video_editing_tool"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="Wondershare Filmora 11"/>
+                        android:text="@string/Cname"/>
 
                 </LinearLayout>
 
@@ -100,7 +67,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/video_reconding_tool"/>
+                        android:text="@string/breed"/>
 
                 </LinearLayout>
 
@@ -115,7 +82,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="OBS"/>
+                        android:text="@string/Cbreed"/>
 
                 </LinearLayout>
 
@@ -135,7 +102,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/preview_tool"/>
+                        android:text="@string/bday"/>
 
                 </LinearLayout>
 
@@ -150,7 +117,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="Adobe Photoshop 2024"/>
+                        android:text="12.09.2024"/>
 
                 </LinearLayout>
 

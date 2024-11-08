@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,30 +7,102 @@
     tools:context=".ui.links.LinksFragment"
     android:orientation="vertical">
 
+    <dev.oneuiproject.oneui.widget.Separator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/WIMD"/>
+
     <dev.oneuiproject.oneui.widget.RoundLinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
         android:background="@color/oui_background_color"
         android:orientation="vertical">
 
         <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/link_github"
+            android:id="@+id/link_Appsa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:IconDrawable="@drawable/about_page_github"
-            app:TitleText="Github"
-            app:SummaryText="my github profile"/>
+            app:TitleText="@string/PS" />
 
         <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/link_tg"
+            android:id="@+id/link_Appswin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:IconDrawable="@drawable/about_page_telegram"
-            app:TitleText="Telegram"
-            app:SummaryText="tg"
+            app:TitleText="@string/WS"
             app:isDividerViewVisible="true"/>
 
     </dev.oneuiproject.oneui.widget.RoundLinearLayout>
 
-</FrameLayout>
+    <dev.oneuiproject.oneui.widget.Separator
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Rtt"/>
+
+    <dev.oneuiproject.oneui.widget.RoundLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/oui_background_color"
+        android:orientation="vertical">
+
+
+    <com.bohdan157.app.ui.widget.CardView
+        android:id="@+id/link_modules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:TitleText="@string/mmtiu" />
+
+    </dev.oneuiproject.oneui.widget.RoundLinearLayout>
+
+    <dev.oneuiproject.oneui.widget.Separator
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Future features"/>
+
+    <dev.oneuiproject.oneui.widget.RoundLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/oui_background_color"
+        android:orientation="vertical">
+
+    <com.bohdan157.app.ui.widget.CardView
+        android:id="@+id/devspec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:TitleText="2.5"
+        app:SummaryText="Next spoiler in 1.1"/>
+
+        <com.bohdan157.app.ui.widget.CardView
+            android:id="@+id/rebmen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:TitleText="2.0"
+            app:SummaryText="Next spoiler in 1.1"
+            app:isDividerViewVisible="true"/>
+
+    </dev.oneuiproject.oneui.widget.RoundLinearLayout>
+
+    <dev.oneuiproject.oneui.widget.Separator
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ads :D"/>
+
+    <dev.oneuiproject.oneui.widget.RoundLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/oui_background_color"
+        android:orientation="vertical">
+
+        <com.bohdan157.app.ui.widget.CardView
+            android:id="@+id/link_RT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:TitleText="Mi Tools"
+            app:SummaryText="@string/mitool"/>
+
+    </dev.oneuiproject.oneui.widget.RoundLinearLayout>
+
+
+
+
+
+</LinearLayout>

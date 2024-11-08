@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <dev.oneuiproject.oneui.widget.RoundLinearLayout
         android:layout_width="match_parent"
@@ -30,7 +32,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/name"/>
+                        android:text="@string/model"/>
 
                 </LinearLayout>
 
@@ -45,42 +47,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/user_name"/>
-
-                </LinearLayout>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_marginBottom="4dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="@string/nickname"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="@string/operating_system_tester"/>
+                        android:text="Galaxy Watch 4 (40mm) | SM-R860"/>
 
                 </LinearLayout>
 
@@ -100,7 +67,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/age"/>
+                        android:text="@string/OS"/>
 
                 </LinearLayout>
 
@@ -115,42 +82,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="16"/>
-
-                </LinearLayout>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_marginBottom="4dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="@string/location"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="4dp"
-                        android:textSize="14sp"
-                        android:text="@string/location_info"/>
+                        android:text="One Ui 6.0 Watch Beta, Android 14, WearOS 5.0, \nR860XXU1ZXJ2"/>
 
                 </LinearLayout>
 
@@ -170,7 +102,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/birthday"/>
+                        android:text="CPU"/>
 
                 </LinearLayout>
 
@@ -185,7 +117,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/birthday_info"/>
+                        android:text="Samsung Exynos W920"/>
 
                 </LinearLayout>
 
@@ -205,7 +137,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="@string/timezone"/>
+                        android:text="GPU"/>
 
                 </LinearLayout>
 
@@ -220,7 +152,77 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="UTC+3"/>
+                        android:text="Mali-G68"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/Screen"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="450 x 450 pixels (~321 ppi density) \n1.4 inches Super AMOLED"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="@string/Memory"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:text="1.5GB RAM, 16GB ROM"/>
 
                 </LinearLayout>
 

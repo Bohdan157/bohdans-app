@@ -7,6 +7,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.SystemClock;
 import android.util.Log;
@@ -14,6 +15,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.bohdan157.app.PetsFragment;
 import com.bohdan157.app.R;
 import com.bohdan157.app.databinding.FragmentHomeBinding;
 
@@ -26,12 +28,17 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                              ViewGroup container, Bundle savedInstanceState) {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
 
+
+
         initContent();
         return binding.getRoot();
     }
 
     private void initContent() {
-        binding.aboutMe.setOnClickListener(this);
+        binding.telegramAcc.setOnClickListener(this);
+        binding.pets.setOnClickListener(this);
+        binding.blog.setOnClickListener(this);
+        binding.gh.setOnClickListener(this);
     }
 
     @Override
@@ -39,8 +46,22 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         long uptimeMillis = SystemClock.uptimeMillis();
         if (uptimeMillis - mLastClickTime > 600L) {
             String url = null;
-            if (v.getId() == binding.aboutMe.getId()) {
+            if (v.getId() == binding.telegramAcc.getId()) {
+                url = "https://t.me/Bohdanr9q";
+            }
+            if (v.getId() == binding.blog.getId()) {
+                url = "https://t.me/blog157";
+            }
+            if (v.getId() == binding.gh.getId()) {
                 url = "https://github.com/Bohdan157";
+            }
+            if (v.getId() == binding.pets.getId()) {
+                Fragment PetsFragment = new PetsFragment();
+                requireActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.nav_host_fragment_activity_main, PetsFragment, "findThisFragment")
+                        .addToBackStack(null)
+                        .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+                        .commit();
             }
             if (url != null) {
                 try {
