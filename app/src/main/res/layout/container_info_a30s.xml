@@ -82,7 +82,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="One Ui 6.0, Android 14, S901BXXS7DWL3"/>
+                        android:text="Miui 13 22.2.9, Android 11, RKQ1.200826.002"/>
 
                 </LinearLayout>
 
@@ -117,7 +117,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="4.4.302-P6 Eureka kernel 15.11.2023"/>
+                        android:text="4.4.288 Eureka kernel"/>
 
                 </LinearLayout>
 

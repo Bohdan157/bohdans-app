@@ -15,8 +15,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.bohdan157.app.ModulesFragment;
 import com.bohdan157.app.PetsFragment;
 import com.bohdan157.app.R;
+import com.bohdan157.app.abtdevFragment;
 import com.bohdan157.app.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
@@ -39,6 +41,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         binding.pets.setOnClickListener(this);
         binding.blog.setOnClickListener(this);
         binding.gh.setOnClickListener(this);
+        binding.acaa.setOnClickListener(this);
     }
 
     @Override
@@ -54,6 +57,14 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             }
             if (v.getId() == binding.gh.getId()) {
                 url = "https://github.com/Bohdan157";
+            }
+            if (v.getId() == binding.acaa.getId()) {
+                Fragment ModulesFragment = new abtdevFragment();
+                requireActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.nav_host_fragment_activity_main, ModulesFragment, "findThisFragment")
+                        .addToBackStack(null)
+                        .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+                        .commit();
             }
             if (v.getId() == binding.pets.getId()) {
                 Fragment PetsFragment = new PetsFragment();

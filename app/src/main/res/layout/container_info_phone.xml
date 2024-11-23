@@ -82,7 +82,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="One Ui 6.1.1, Android 14, S911BXXS6CXHA"/>
+                        android:text="One Ui 6.1.1, Android 14, S7110ZHS5CXJ1"/>
 
                 </LinearLayout>
 
@@ -117,7 +117,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="5.4.259 Aqua kernel 14.02.2024"/>
+                        android:text="5.4 aqua"/>
 
                 </LinearLayout>
 

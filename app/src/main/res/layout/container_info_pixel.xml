@@ -82,7 +82,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="CrDroid 10.8, Android 14, AP2A.240905.003 \nQPR3"/>
+                        android:text="evox 9.5, Android 14, AP2A.240905.003 \nQPR3"/>
 
                 </LinearLayout>
 

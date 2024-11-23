@@ -18,24 +18,27 @@
             style="@style/OneUI.TipsCardTextButtonStyle"
         android:text="@string/mdvcs"/>
 
-        <dev.oneuiproject.oneui.widget.Separator
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/phone"/>
+        <com.bohdan157.app.ui.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:TitleText="@string/phone"
+            app:IconDrawable="@drawable/ic_oui_device_outline"/>
 
         <include layout="@layout/container_info_phone"/>
 
-        <dev.oneuiproject.oneui.widget.Separator
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Tablet" />
+        <com.bohdan157.app.ui.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:IconDrawable="@drawable/ic_oui_tablet_outline"
+            app:TitleText="@string/Tablet"/>
 
         <include layout="@layout/container_info_tablet"/>
 
-        <dev.oneuiproject.oneui.widget.Separator
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Laptop"/>
+        <com.bohdan157.app.ui.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:IconDrawable="@drawable/ic_oui_link_to_windows"
+            app:TitleText="@string/Laptop"/>
 
         <include layout="@layout/container_info_pc"/>
 
@@ -45,17 +48,19 @@
             style="@style/OneUI.TipsCardTextButtonStyle"
             android:text="@string/Wearables"/>
 
-        <dev.oneuiproject.oneui.widget.Separator
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Watch"/>
+        <com.bohdan157.app.ui.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:IconDrawable="@drawable/ic_oui_galaxy_watch"
+            app:TitleText="@string/Watch"/>
 
         <include layout="@layout/container_info_watch"/>
 
-        <dev.oneuiproject.oneui.widget.Separator
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Earbuds"/>
+        <com.bohdan157.app.ui.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:IconDrawable="@drawable/ic_oui_buds_pro_outline"
+            app:TitleText="@string/Earbuds"/>
 
         <include layout="@layout/container_info_buds"/>
 
@@ -65,17 +70,19 @@
             style="@style/OneUI.TipsCardTextButtonStyle"
             android:text="@string/Secondarydevices"/>
 
-        <dev.oneuiproject.oneui.widget.Separator
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/secondphone"/>
+        <com.bohdan157.app.ui.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:TitleText="@string/secondphone"
+            app:IconDrawable="@drawable/ic_oui_device_outline"/>
 
         <include layout="@layout/container_info_a30s"/>
 
-        <dev.oneuiproject.oneui.widget.Separator
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Thirdphone" />
+        <com.bohdan157.app.ui.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:TitleText="@string/Thirdphone"
+            app:IconDrawable="@drawable/ic_oui_device_outline"/>
 
         <include layout="@layout/container_info_pixel"/>
 

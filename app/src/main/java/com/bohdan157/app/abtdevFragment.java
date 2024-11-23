@@ -14,17 +14,20 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.bohdan157.app.ModulesFragment;
+import com.bohdan157.app.PetsFragment;
 import com.bohdan157.app.R;
-import com.bohdan157.app.databinding.FragmentModules2Binding;
+import com.bohdan157.app.databinding.FragmentAbtdevBinding;
+import com.bohdan157.app.databinding.FragmentLinksBinding;
 
-public class ModulesFragment extends Fragment implements View.OnClickListener{
-    FragmentModules2Binding binding;
+public class abtdevFragment extends Fragment implements View.OnClickListener{
+    FragmentAbtdevBinding binding;
     private long mLastClickTime;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        binding = FragmentModules2Binding.inflate(inflater, container, false);
+        binding = FragmentAbtdevBinding.inflate(inflater, container, false);
         initContent();
 
         return binding.getRoot();
@@ -38,10 +41,6 @@ public class ModulesFragment extends Fragment implements View.OnClickListener{
     }
 
     private void initContent() {
-        binding.linkPif.setOnClickListener(this);
-        binding.linkNl.setOnClickListener(this);
-        binding.linkLp.setOnClickListener(this);
-        binding.linkZn.setOnClickListener(this);
     }
 
     @Override
@@ -49,18 +48,6 @@ public class ModulesFragment extends Fragment implements View.OnClickListener{
         long uptimeMillis = SystemClock.uptimeMillis();
         if (uptimeMillis - mLastClickTime > 600L) {
             String url = null;
-            if (v.getId() == binding.linkPif.getId()) {
-                url = "https://github.com/chiteroman/PlayIntegrityFix/releases";
-            }
-            if (v.getId() == binding.linkNl.getId()) {
-                url = "https://github.com/salvogiangri/KnoxPatch/releases";
-            }
-            if (v.getId() == binding.linkLp.getId()) {
-                url = "https://github.com/LSPosed/LSPosed/releases";
-            }
-            if (v.getId() == binding.linkZn.getId()) {
-                url = "https://github.com/Dr-TSNG/ZygiskNext/releases";
-            }
             if (url != null) {
                 try {
                     Intent intent = new Intent(Intent.ACTION_VIEW);

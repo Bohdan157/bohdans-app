@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.tabs_bottomnav_icon);
         toolbarLayout = findViewById(R.id.toolbarLayout);
 
-        toolbarLayout.setTitle(getString(R.string.home));
+        toolbarLayout.setTitle(getString(R.string.app_name));
+        toolbarLayout.setExpandedSubtitle(getString(R.string.home));
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.nav_host_fragment_activity_main, new HomeFragment()).commit();
@@ -57,19 +58,19 @@ public class MainActivity extends AppCompatActivity {
         Fragment fragment = null;
         int itemId = menuItem.getItemId();
         if (itemId == R.id.navigation_home) {
-            toolbarLayout.setTitle(getString(R.string.home));
+            toolbarLayout.setExpandedSubtitle(getString(R.string.home));
             fragment = new HomeFragment();
         } else if (itemId == R.id.navigation_devices) {
-            toolbarLayout.setTitle(getString(R.string.Devices));
+            toolbarLayout.setExpandedSubtitle(getString(R.string.Devices));
             fragment = new DevicesFragment();
         } else if (itemId == R.id.navigation_friends) {
-            toolbarLayout.setTitle(getString(R.string.friends));
+            toolbarLayout.setExpandedSubtitle(getString(R.string.friends));
             fragment = new FriendsFragment();
         } else if (itemId == R.id.navigation_links) {
-            toolbarLayout.setTitle(getString(R.string.Extras));
+            toolbarLayout.setExpandedSubtitle(getString(R.string.Extras));
             fragment = new LinksFragment();
         } else if (itemId == R.id.pets) {
-            toolbarLayout.setTitle(getString(R.string.Pets));
+            toolbarLayout.setExpandedSubtitle(getString(R.string.Pets));
             fragment = new PetsFragment();
         }
         return fragment;

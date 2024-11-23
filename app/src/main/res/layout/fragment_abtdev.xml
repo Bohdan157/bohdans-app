@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical">
+
+    <dev.oneuiproject.oneui.widget.RoundLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/oui_background_color"
+        android:orientation="vertical">
+
+        <com.bohdan157.app.ui.widget.CardView
+            android:id="@+id/acaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:TitleText="@string/TName"
+            app:SummaryText="@string/name">
+        </com.bohdan157.app.ui.widget.CardView>
+        <com.bohdan157.app.ui.widget.CardView
+            android:id="@+id/infor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:TitleText="@string/bday"
+            app:SummaryText="11.03.2012"
+            app:isDividerViewVisible="true">
+        </com.bohdan157.app.ui.widget.CardView>
+        <com.bohdan157.app.ui.widget.CardView
+            android:id="@+id/aasdcaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:TitleText="@string/age"
+            app:SummaryText="@string/yo"
+            app:isDividerViewVisible="true">
+        </com.bohdan157.app.ui.widget.CardView>
+        <com.bohdan157.app.ui.widget.CardView
+            android:id="@+id/adacaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:TitleText="@string/country"
+            app:SummaryText="@string/ukraine"
+            app:isDividerViewVisible="true">
+        </com.bohdan157.app.ui.widget.CardView>
+        <com.bohdan157.app.ui.widget.CardView
+            android:id="@+id/asacaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:TitleText="@string/city"
+            app:SummaryText="@string/lviv"
+            app:isDividerViewVisible="true">
+        </com.bohdan157.app.ui.widget.CardView>
+
+    </dev.oneuiproject.oneui.widget.RoundLinearLayout>
+
+
+</LinearLayout>

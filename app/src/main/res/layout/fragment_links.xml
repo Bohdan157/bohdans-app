@@ -22,12 +22,14 @@
             android:id="@+id/link_Appsa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:IconDrawable="@drawable/ic_oui_device_outline"
             app:TitleText="@string/PS" />
 
         <com.bohdan157.app.ui.widget.CardView
             android:id="@+id/link_Appswin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:IconDrawable="@drawable/ic_oui_link_to_windows"
             app:TitleText="@string/WS"
             app:isDividerViewVisible="true"/>
 
@@ -49,35 +51,8 @@
         android:id="@+id/link_modules"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:IconDrawable="@drawable/ic_oui_biometric_type_face"
         app:TitleText="@string/mmtiu" />
-
-    </dev.oneuiproject.oneui.widget.RoundLinearLayout>
-
-    <dev.oneuiproject.oneui.widget.Separator
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Future features"/>
-
-    <dev.oneuiproject.oneui.widget.RoundLinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/oui_background_color"
-        android:orientation="vertical">
-
-    <com.bohdan157.app.ui.widget.CardView
-        android:id="@+id/devspec"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:TitleText="2.5"
-        app:SummaryText="Next spoiler in 1.1"/>
-
-        <com.bohdan157.app.ui.widget.CardView
-            android:id="@+id/rebmen"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:TitleText="2.0"
-            app:SummaryText="Next spoiler in 1.1"
-            app:isDividerViewVisible="true"/>
 
     </dev.oneuiproject.oneui.widget.RoundLinearLayout>
 
@@ -97,6 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:TitleText="Mi Tools"
+            app:IconDrawable="@drawable/ic_oui_tool_outline"
             app:SummaryText="@string/mitool"/>
 
     </dev.oneuiproject.oneui.widget.RoundLinearLayout>

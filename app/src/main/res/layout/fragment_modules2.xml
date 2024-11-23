@@ -23,7 +23,19 @@
             android:id="@+id/link_nl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:TitleText="Nothing phone launcher "
+            app:TitleText="Knox patch "
+            app:isDividerViewVisible="true"/>
+        <com.bohdan157.app.ui.widget.CardView
+            android:id="@+id/link_lp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:TitleText="Lsposed"
+            app:isDividerViewVisible="true"/>
+        <com.bohdan157.app.ui.widget.CardView
+            android:id="@+id/link_zn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:TitleText="Zygisk next (ksu)"
             app:isDividerViewVisible="true"/>
 
 

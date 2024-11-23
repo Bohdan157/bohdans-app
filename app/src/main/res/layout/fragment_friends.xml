@@ -12,6 +12,15 @@
         android:layout_height="wrap_content"
         android:background="@color/oui_background_color"
         android:orientation="vertical">
+        <com.bohdan157.app.ui.widget.CardView
+            android:id="@+id/friends_fly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:IconDrawable="@drawable/fly"
+            app:TitleText="Flylarb The Orange Cat"
+            app:SummaryText="Tesla."/>
+
 
         <com.bohdan157.app.ui.widget.CardView
             android:id="@+id/friends_ost"
@@ -20,7 +29,8 @@
             android:orientation="vertical"
             app:IconDrawable="@drawable/ost_logo"
             app:TitleText="OST"
-            app:SummaryText="@string/ost"/>
+            app:SummaryText="@string/ost"
+            app:isDividerViewVisible="true"/>
 
         <com.bohdan157.app.ui.widget.CardView
             android:id="@+id/friends_kernel"

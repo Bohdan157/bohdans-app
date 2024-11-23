@@ -11,8 +11,8 @@ android {
         applicationId = "com.bohdan157.app"
         minSdk = 28
         targetSdk = 34
-        versionCode = 100
-        versionName = "1.0.0"
+        versionCode = 110
+        versionName = "1.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled = true
@@ -100,6 +100,6 @@ dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
 
 
-//    implementation("io.github.oneuiproject:design:1.2.7-beta1")
+ // implementation("io.github.oneuiproject:design:1.2.7-beta1")
 
 }

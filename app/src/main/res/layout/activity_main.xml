@@ -28,6 +28,14 @@
 
     </dev.oneuiproject.oneui.layout.ToolbarLayout>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/drawer_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        app:layout_location="drawer_panel" />
+
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/tabs_bottomnav_icon"
         android:layout_width="match_parent"
