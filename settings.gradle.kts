@@ -16,18 +16,18 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-	    maven {
+        maven {
             url = uri("https://maven.pkg.github.com/tribalfs/sesl-androidx")
             credentials {
                 username = "Bohdan157"
-                password = "no"
+                password = ""
             }
         }
         maven {
             url = uri("https://maven.pkg.github.com/tribalfs/sesl-material-components-android")
             credentials {
                 username = "Bohdan157"
-                password = "ok?"
+                password = ""
             }
         }
     }
@@ -37,4 +37,3 @@ include(":lib")
 
 rootProject.name = "My Application"
 include(":app")
- 
