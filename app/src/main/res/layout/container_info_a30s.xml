@@ -82,7 +82,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="Miui 13 22.2.9, Android 11, RKQ1.200826.002"/>
+                        android:text="One Ui 5.1, Android 13"/>
 
                 </LinearLayout>
 
@@ -222,7 +222,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="720 x 1560 pixels (~268 ppi density) 6.4 inches Super AMOLED"/>
+                        android:text="720 x 1560 pixels (~268 ppi density)\n6.4 inches Super AMOLED"/>
 
                 </LinearLayout>
 

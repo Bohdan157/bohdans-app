@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">157</string>
+    <string name="app_name" translatable="false">157 Info</string>
     <string name="Fuyu" translatable="true">This is Fuyutsuki-san</string>
     <string name="about_me_shrt" translatable="true">a little about me</string>
     <string name="about_me_shrt_text" translatable="true">My name is Bohdan, I am 12 y.o. I love digging into operating systems and modifying them.</string>
@@ -12,10 +12,10 @@
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="title_activity_about" translatable="false">About_Activity</string>
     <string name="developer">developer</string>
-    <string name="check_for_updates">check_for_updates</string>
-    <string name="one_ui_design_developers">one_ui_design_developers</string>
-    <string name="open_source_licenses">open_source_licenses</string>
-    <string name="useful_links">useful_links</string>
+    <string name="check_for_updates">check for updates</string>
+    <string name="one_ui_design_developers">one ui design developers</string>
+    <string name="open_source_licenses">opensource licenses</string>
+    <string name="useful_links">useful links</string>
     <string name="github" translatable="false">github</string>
     <string name="model">model</string>
     <string name="cpu">cpu</string>
@@ -24,19 +24,19 @@
     <string name="rom">rom</string>
     <string name="board">board</string>
     <string name="settings">settings</string>
-    <string name="about_app">about_app</string>
-    <string name="dark_mode_settings">dark_mode_settings</string>
-    <string name="system_default">system_default</string>
-    <string name="checking_for_updates">checking_for_updates</string>
-    <string name="error_getting_version_information">error_getting_version_information</string>
-    <string name="update_available">update_available</string>
+    <string name="about_app">about app</string>
+    <string name="dark_mode_settings">dark mode settings</string>
+    <string name="system_default">system default</string>
+    <string name="checking_for_updates">checking for updates</string>
+    <string name="error_getting_version_information">error getting version information</string>
+    <string name="update_available">update available</string>
     <string name="install_update_q">install update?</string>
     <string name="install">install</string>
     <string name="cancel">cancel</string>
-    <string name="latest_version_installed">latest_version_installed</string>
-    <string name="downloading_update">downloading_update</string>
-    <string name="download_canceled">download_canceled</string>
-    <string name="update_file_not_found">update_file_not_found</string>
+    <string name="latest_version_installed">latest version installed</string>
+    <string name="downloading_update">downloading update</string>
+    <string name="download_canceled">download canceled</string>
+    <string name="update_file_not_found">update file not found</string>
     <string name="write_to_external_storage_permission">write to external storage permission</string>
     <string name="access_to_all_files_permission">access to all files permission needed</string>
     <string name="install_unknown_apps_permission">install unknown apps permission needed</string>
@@ -97,6 +97,16 @@
     <string name="Blog">Blog</string>
     <string name="gh">Github</string>
     <string name="sumthc">Cat • Hamster</string>
-
-    <!--  TODO: Remove or change this placeholder text  -->
+    <string name="Buildinfo">Short build info</string>
+    <string name="sominfo">Some info</string>
+    <string name="tempdel">Temporairly deleted</string>
+    <string name="ad">Theres might be your ad</string>
+    <string name="adsad">But nobody suggested me one</string>
+    <string name="Phones">Phones</string>
+    <string name="odvcs">Other devices</string>
+    <string name="branch">Current branch</string>
+    <string name="Release">Release</string>
+    <string name="Uptm">Update publish time</string>
+    <string name="uptmkt">01.01.2025 | 20:15 Kyiv time</string>
+    <string name="HNY">Happy new year!</string>
 </resources>

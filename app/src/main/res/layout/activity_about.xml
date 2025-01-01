@@ -44,6 +44,17 @@
                     app:fontFamily="@font/samsungsharpsans_bold" />
 
                 <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/about_header_app_package"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="com.bohdan157.app"
+                    android:textSize="14sp"
+                    android:textColor="@color/about_page_secondary_text_color" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/about_header_app_version"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

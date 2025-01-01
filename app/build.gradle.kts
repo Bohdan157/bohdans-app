@@ -11,8 +11,8 @@ android {
         applicationId = "com.bohdan157.app"
         minSdk = 28
         targetSdk = 34
-        versionCode = 110
-        versionName = "1.1.0"
+        versionCode = 120
+        versionName = "1.2.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled = true

@@ -41,8 +41,6 @@ public class LinksFragment extends Fragment implements View.OnClickListener{
 
     private void initContent() {
         binding.linkModules.setOnClickListener(this);
-        binding.linkAppsa.setOnClickListener(this);
-        binding.linkAppswin.setOnClickListener(this);
         binding.linkRT.setOnClickListener(this);
         binding.linkModules.setOnClickListener(this);
     }
@@ -52,13 +50,8 @@ public class LinksFragment extends Fragment implements View.OnClickListener{
         long uptimeMillis = SystemClock.uptimeMillis();
         if (uptimeMillis - mLastClickTime > 600L) {
             String url = null;
-            if (v.getId() == binding.linkAppsa.getId()) {
-                url = "https://drive.google.com/drive/folders/1CSkHzPmgmEtl8R06AUjkX9Klr0HN2qwb?usp=drive_link";
-            } else if (v.getId() == binding.linkAppswin.getId()) {
-                url = "https://drive.google.com/file/d/1ll8MfSVpTJdaVJmjcUfi_7ijgGt4CpDs/view?usp=sharing";
-            }
-            else if (v.getId() == binding.linkRT.getId()) {
-                url = "https://github.com/MADWIN11/MITOOLS/releases/tag/V1";
+            if (v.getId() == binding.linkRT.getId()) {
+                url = "";
             }
             if (v.getId() == binding.linkModules.getId()) {
                 Fragment ModulesFragment = new ModulesFragment();

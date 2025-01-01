@@ -82,7 +82,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="One Ui 6.1.1, Android 14, S7110ZHS5CXJ1"/>
+                        android:text="One Ui 6.1.1 | Android 14"/>
 
                 </LinearLayout>
 
@@ -117,7 +117,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="5.4 aqua"/>
+                        android:text="5.4 qgki G990B2XXSAGXJ3"/>
 
                 </LinearLayout>
 
@@ -222,7 +222,7 @@
                         android:layout_height="match_parent"
                         android:padding="4dp"
                         android:textSize="14sp"
-                        android:text="1080 x 2340 pixels (~403 ppi density) 6.4 inches Dynamic AMOLED 2X, 120Hz, HDR10+"/>
+                        android:text="1080 x 2340 pixels (~403 ppi density)\n6.4 inches Dynamic AMOLED 2X, 120Hz"/>
 
                 </LinearLayout>
 

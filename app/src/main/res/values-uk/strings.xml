@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">157</string>
     <string name="Fuyu">Це - Фуютсукі-сан</string>
     <string name="about_me_shrt">Трішки про мене</string>
     <string name="about_me_shrt_text">Мене звати Богдан, мені 12 років. Я люблю копатися в різних ОС та модифікувати їх.</string>
@@ -92,4 +91,16 @@
     <string name="Blog">Блог</string>
     <string name="gh">Гітхаб</string>
     <string name="sumthc">Кіт • Хом\'як</string>
+    <string name="Buildinfo">Коротка інформація про збірку</string>
+    <string name="sominfo">Трішки інформації</string>
+    <string name="tempdel">Тимчасово видалено</string>
+    <string name="ad">Тут могла бути ваша реклама</string>
+    <string name="adsad">Але ніхто мені її не запропонував</string>
+    <string name="Phones">Телефони</string>
+    <string name="odvcs">Інші пристрої</string>
+    <string name="branch">Поточна гілка</string>
+    <string name="Release">Реліз</string>
+    <string name="Uptm">Час публікування оновлення</string>
+    <string name="uptmkt">01.01.2025 | 20:15 по Києву</string>
+    <string name="HNY">З новим роком!</string>
 </resources>
